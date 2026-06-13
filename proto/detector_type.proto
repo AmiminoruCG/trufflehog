@@ -1055,4 +1055,5 @@ enum DetectorType {
   SpectralOps = 1051;
   AWSAppSync = 1052;
   OpenRouter = 1053;
+  Perplexity = 1054;
 }
