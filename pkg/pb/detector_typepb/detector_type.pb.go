@@ -1108,6 +1108,7 @@ const (
 	DetectorType_AWSAppSync                              DetectorType = 1052
 	DetectorType_OpenRouter                              DetectorType = 1053
 	DetectorType_Perplexity                              DetectorType = 1054
+	DetectorType_Moonshot                                DetectorType = 1055
 )
 
 // Enum value maps for DetectorType.
@@ -2164,6 +2165,7 @@ var (
 		1052: "AWSAppSync",
 		1053: "OpenRouter",
 		1054: "Perplexity",
+		1055: "Moonshot",
 	}
 	DetectorType_value = map[string]int32{
 		"Alibaba":                               0,
@@ -3217,6 +3219,7 @@ var (
 		"AWSAppSync":                        1052,
 		"OpenRouter":                        1053,
 		"Perplexity":                        1054,
+		"Moonshot":                          1055,
 	}
 )
 

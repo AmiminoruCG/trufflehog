@@ -1056,4 +1056,5 @@ enum DetectorType {
   AWSAppSync = 1052;
   OpenRouter = 1053;
   Perplexity = 1054;
+  Moonshot = 1055;
 }

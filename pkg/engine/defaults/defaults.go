@@ -490,6 +490,7 @@ import (
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/mongodb"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/monkeylearn"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/moonclerk"
+	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/moonshot"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/moosend"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/moralis"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/mrticktock"
@@ -532,8 +533,8 @@ import (
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/oopspam"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/openai"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/openaiadmin"
-	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/openrouter"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/opencagedata"
+	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/openrouter"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/openuv"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/openvpn"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/openweather"
@@ -1387,6 +1388,7 @@ func buildDetectorList() []detectors.Detector {
 		&mongodb.Scanner{},
 		&monkeylearn.Scanner{},
 		&moonclerk.Scanner{},
+		&moonshot.Scanner{},
 		&moosend.Scanner{},
 		&moralis.Scanner{},
 		&mrticktock.Scanner{},
