@@ -343,6 +343,7 @@ import (
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/gitlaboauth2"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/gitter"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/glassnode"
+	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/glm"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/gocanvas"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/gocardless"
 	godaddyv1 "github.com/trufflesecurity/trufflehog/v3/pkg/detectors/godaddy/v1"
@@ -1232,6 +1233,7 @@ func buildDetectorList() []detectors.Detector {
 		&gitlabv2.Scanner{},
 		&gitlabv3.Scanner{},
 		&gitter.Scanner{},
+		&glm.Scanner{},
 		&glassnode.Scanner{},
 		&gocanvas.Scanner{},
 		&gocardless.Scanner{},

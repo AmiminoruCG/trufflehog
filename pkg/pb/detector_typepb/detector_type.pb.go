@@ -1109,6 +1109,7 @@ const (
 	DetectorType_OpenRouter                              DetectorType = 1053
 	DetectorType_Perplexity                              DetectorType = 1054
 	DetectorType_Moonshot                                DetectorType = 1055
+	DetectorType_GLM                                     DetectorType = 1056
 )
 
 // Enum value maps for DetectorType.
@@ -2166,6 +2167,7 @@ var (
 		1053: "OpenRouter",
 		1054: "Perplexity",
 		1055: "Moonshot",
+		1056: "GLM",
 	}
 	DetectorType_value = map[string]int32{
 		"Alibaba":                               0,
@@ -3220,6 +3222,7 @@ var (
 		"OpenRouter":                        1053,
 		"Perplexity":                        1054,
 		"Moonshot":                          1055,
+		"GLM":                               1056,
 	}
 )
 
