@@ -541,6 +541,7 @@ import (
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/openweather"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/opsgenie"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/optimizely"
+	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/oraclecloud"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/overloop"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/owlbot"
 	"github.com/trufflesecurity/trufflehog/v3/pkg/detectors/packagecloud"
@@ -1441,6 +1442,7 @@ func buildDetectorList() []detectors.Detector {
 		&openweather.Scanner{},
 		&opsgenie.Scanner{},
 		&optimizely.Scanner{},
+		&oraclecloud.Scanner{},
 		&overloop.Scanner{},
 		&owlbot.Scanner{},
 		&packagecloud.Scanner{},

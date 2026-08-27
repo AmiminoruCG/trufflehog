@@ -1058,4 +1058,5 @@ enum DetectorType {
   Perplexity = 1054;
   Moonshot = 1055;
   GLM = 1056;
+  OracleCloud = 1057;
 }
